@@ -52,6 +52,19 @@ export default {
     }
   },
   created () {
+    
+  },
+  mounted () {
+    const db = wx.cloud.database()
+    // db.collection('todo').get()
+    // .then(res => {
+    //   console.log(res);
+      
+    // })
+    // wx.cloud.callFunction({ name: 'addTodo' }).then(res => {
+    //   console.log(res);
+      
+    // })
   }
 }
 </script>
